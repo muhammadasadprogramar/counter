@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0 20px;
+}
+.main {
+  box-shadow: 0 0 10px #11111190, 0 0 40px #00000087;
+}
+
+.cont {
+  width: 20rem;
+}
+
+@media (max-width: 415px) {
+  .cont {
+    width: 100%;
+  }
+}
